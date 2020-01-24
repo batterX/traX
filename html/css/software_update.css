@@ -1,0 +1,45 @@
+* {	user-select: none }
+
+
+
+.container {
+	text-align: center;
+	padding: 0;
+}
+
+.container > div {
+	width: 100%;
+}
+
+.container > div > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+h1 {
+	font-size: 6vmin;
+	margin-top: 30vmin;
+	margin-bottom: 15vmin;
+}
+
+
+
+#notif {
+	display: inline-block;
+	width: 4.5vmin;
+	height: 4.5vmin;
+}
+
+#message {
+	font-size: 3vmin;
+	margin-left: 3vmin;
+}
+
+#errorInfo {
+	display: block;
+	font-size: 2vmin;
+	margin-top: 2.5vmin;
+}

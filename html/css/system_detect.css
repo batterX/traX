@@ -1,0 +1,71 @@
+* { user-select: none }
+
+
+
+.container {
+	text-align: center;
+	padding: 0;
+}
+
+.container > div {
+	width: 100%;
+}
+
+
+
+.notif {
+	display: inline-block;
+	width: 4.5vmin;
+	height: 4.5vmin;
+	margin-right: 2vmin;
+}
+
+
+
+#meterUnknown h1 {
+	font-size: 6vmin;
+	margin-top: 32.5vmin;
+	margin-bottom: 15vmin;
+}
+
+#meterUnknown  .message {
+	display: block;
+	font-size: 3vmin;
+}
+
+
+
+.serialnumber {
+	display: block;
+	font-size: 3vmin;
+	margin-bottom: 5vmin;
+}
+
+
+
+#meterDetected {
+	display: none;
+}
+
+#meterDetected h1 {
+	font-size: 6vmin;
+	margin-top: 15vmin;
+	margin-bottom: 7.5vmin;
+}
+
+#meterDetected img {
+	width: 25vmin;
+	height: 25vmin;
+	margin-bottom: 7.5vmin;
+}
+
+#meterDetected h1 span {
+	color: #92e503;
+}
+
+#meterDetected .status-success {
+	display: inline-block;
+	width: 6vmin;
+	height: 6vmin;
+	margin-top: 3vmin;
+}

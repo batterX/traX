@@ -200,7 +200,7 @@
 			"c_za": "Südafrika",
 			"c_re": "Réunion",
 			
-			"energy_meter_not_working":    "Energy Meter Not Working",
+			"energy_meter_not_working":    "Energiezähler funktioniert nicht",
 			"please_connect_energy_meter": "Please connect your Energy Meter to the liveX",
 
 			"summary_installation_summary": "Installationsbericht",
@@ -213,7 +213,7 @@
 			"summary_customer":             "Kunde",
 			"summary_customer_address":     "Kundenadresse",
 			"summary_installation":         "Installation",
-			"summary_serialnumber":         "Serial Number",
+			"summary_serialnumber":         "Seriennummer",
 			"summary_installation_address": "Installationsadresse",
 			"summary_confirm_box":          "Hiermit bestätige ich, dass die oben angegebenen Informationen wahr, vollständig und korrekt sind.",
 			"summary_finish_installation":  "Installation abschließen",
@@ -308,7 +308,7 @@
 			"c_za": "Afrique du Sud",
 			"c_re": "Réunion",
 			
-			"energy_meter_not_working":    "Energy Meter Not Working",
+			"energy_meter_not_working":    "Compteur d'énergie ne fonctionne pas",
 			"please_connect_energy_meter": "Please connect your Energy Meter to the liveX",
 
 			"summary_installation_summary": "Résumé de l'installation",
@@ -321,7 +321,7 @@
 			"summary_customer":             "Client",
 			"summary_customer_address":     "L'adresse du client",
 			"summary_installation":         "Installation",
-			"summary_serialnumber":         "Serial Number",
+			"summary_serialnumber":         "Numéro de série",
 			"summary_installation_address": "L'adresse d'installation",
 			"summary_confirm_box":          "Je confirme par la présente que les informations ci-dessus sont vrais, complets et exacts.",
 			"summary_finish_installation":  "Terminer l'installation",
@@ -416,7 +416,7 @@
 			"c_za": "Jihoafrická republika",
 			"c_re": "Réunion",
 			
-			"energy_meter_not_working":    "Energy Meter Not Working",
+			"energy_meter_not_working":    "Měřič energie mimo provoz",
 			"please_connect_energy_meter": "Please connect your Energy Meter to the liveX",
 
 			"summary_installation_summary": "Shrnutí instalace",
@@ -429,7 +429,7 @@
 			"summary_customer":             "Zákazník",
 			"summary_customer_address":     "Adresa zákazníka",
 			"summary_installation":         "Instalace",
-			"summary_serialnumber":         "Serial Number",
+			"summary_serialnumber":         "Sériové číslo",
 			"summary_installation_address": "Adresa montáže",
 			"summary_confirm_box":          "Potvrzuji, že výše uvedené informace jsou pravdivé, úplné a přesné.",
 			"summary_finish_installation":  "Dokončit instalaci",

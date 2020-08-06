@@ -1,0 +1,131 @@
+{
+
+	"lang": "de",
+
+	"btn": {
+		"continue" : "Weiter",
+		"login"    : "Anmelden"
+    },
+
+	"software_update": {
+		"software_update"                : "Software-Aktualisierung",
+		"checking_internet_connection"   : "Überprüfung der Internetverbindung",
+		"searching_for_updates"          : "Es wird nach updates gesucht",
+		"downloading_update"             : "Update wird heruntergeladen",
+		"rebooting"                      : "Neustarten",
+		"finishing_update"               : "Update abschließen",
+		"update_completed"               : "Update abgeschlossen",
+		"no_internet_connection"         : "Keine Internetverbindung",
+		"check_network_cable_connection" : "Stellen Sie sicher, dass das Netzwerkkabel angeschlossen ist"
+	},
+
+	"installer_login": {
+		"installer_login"         : "Installateur-Anmeldung",
+		"email"                   : "Email",
+		"password"                : "Kennwort",
+		"wrong_email_or_password" : "Falsche Email oder Kennwort. Bitte versuchen Sie es noch einmal!",
+		"wrong_system_installer"  : "Sie sind nicht der Installateur dieses Systems, daher können Sie die Installation nicht abschließen."
+	},
+
+	"customer_info": {
+		"customer_information"       : "Kundeninformationen",
+		"first_name"                 : "Vorname",
+		"last_name"                  : "Nachname",
+		"email"                      : "Email",
+		"telephone"                  : "Telefon",
+		"city"                       : "Stadt",
+		"zip_code"                   : "Postleitzahl",
+		"address"                    : "Adresse",
+		"installation_address"       : "Installationsadresse",
+		"same_as_customer_address"   : "Gleich Kundenadresse",
+		"customer_same_as_installer" : "Die Kunden-E-Mail kann nicht mit der Installateur-E-Mail gleich sein. Bitte wählen Sie eine andere E-Mail Adresse!",
+		"wrong_customer_installer"   : "Sie haben keinen Zugriff auf diese Endkunden E-Mail-Adresse. Bitte verwenden Sie eine andere E-Mail-Adresse!"
+	},
+
+	"system_detect": {
+		"meter_not_working"    : "Energiezähler funktioniert nicht",
+		"please_connect_meter" : "Bitte verbinden Sie den Energiezähler mit dem liveX",
+		"trax_not_registered"  : "Ihr traX ist nicht in unserer Datenbank registriert."
+	},
+
+	"summary": {
+		"installation_summary"  : "Installationsbericht",
+		"installation_date"     : "Installationsdatum",
+		"installer"             : "Installateur",
+		"name"                  : "Name",
+		"company"               : "Unternehmen",
+		"email"                 : "E-Mail",
+		"telephone"             : "Telefon",
+		"customer"              : "Kunde",
+		"address"               : "Adresse",
+		"installation"          : "Installation",
+		"serialnumber"          : "Seriennummer",
+		"confirm_box"           : "Hiermit bestätige ich, dass die oben angegebenen Informationen wahr, vollständig und korrekt sind.",
+		"finish_installation"   : "Installation abschließen",
+		"final_congratulations" : "Herzlichen Glückwunsch!",
+		"final_p1"              : "Die Installation des batterX traX wurde erfolgreich abgeschlossen und eine E-Mail mit Bestätigungslink an den Kunden gesendet.",
+		"final_p2"              : "Durch Anklicken des Bestätigungslinks kann der Kunde mit der Nutzung des batterX Portals zur Fernüberwachung seines batterX traX beginnen.",
+		"final_p3"              : "Als Installateur des Systems erhalten Sie Zugriff auf dieses batterX Home auch von Ihrem eigenen Konto aus.",
+		"final_p6"              : "Das batterX Portal finden Sie unter folgender Adresse"
+	},
+
+
+
+
+
+	"dict_gender": {
+		"0" : "Herr",
+		"1" : "Frau"
+	},
+
+	"dict_countries": {
+		"europe" : "Europa",
+		"africa" : "Afrika",
+		"at" : "Österreich",
+		"by" : "Weißrussland",
+		"be" : "Belgien",
+		"cy" : "Zypern",
+		"cz" : "Tschechien",
+		"dk" : "Dänemark",
+		"ee" : "Estland",
+		"fi" : "Finnland",
+		"fr" : "Frankreich",
+		"ge" : "Georgia",
+		"de" : "Deutschland",
+		"gr" : "Griechenland",
+		"hu" : "Ungarn",
+		"is" : "Island",
+		"ie" : "Irland",
+		"it" : "Italien",
+		"lv" : "Lettland",
+		"lt" : "Litauen",
+		"lu" : "Luxemburg",
+		"mt" : "Malta",
+		"md" : "Moldawien",
+		"nl" : "Niederlande",
+		"no" : "Norwegen",
+		"pl" : "Polen",
+		"pt" : "Portugal",
+		"ro" : "Rumänien",
+		"ru" : "Russland",
+		"sk" : "Slowakei",
+		"si" : "Slowenien",
+		"es" : "Spanien",
+		"se" : "Schweden",
+		"ch" : "Die Schweiz",
+		"tr" : "Türkei",
+		"ua" : "Ukraine",
+		"gb" : "Vereinigtes Königreich",
+		"sn" : "Senegal",
+		"ci" : "Elfenbeinküste",
+		"gh" : "Ghana",
+		"ng" : "Nigeria",
+		"tg" : "Togo",
+		"cd" : "Demokratische Republik Kongo",
+		"ug" : "Uganda",
+		"ke" : "Kenia",
+		"za" : "Südafrika",
+		"re" : "Réunion"
+	}
+
+}

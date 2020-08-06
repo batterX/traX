@@ -1,0 +1,131 @@
+{
+
+	"lang": "es",
+
+	"btn": {
+		"continue" : "Continuar",
+		"login"    : "Iniciar sesión"
+    },
+
+	"software_update": {
+		"software_update"                : "Actualización de software",
+		"checking_internet_connection"   : "Comprobando la conexión de Internet",
+		"searching_for_updates"          : "Buscando actualizaciones",
+		"downloading_update"             : "Descargando actualización",
+		"rebooting"                      : "Reinicio",
+		"finishing_update"               : "Terminando actualización",
+		"update_completed"               : "Actualización terminada",
+		"no_internet_connection"         : "Sin conexión a Internet",
+		"check_network_cable_connection" : "Asegúrese de que el cable de red esté conectado"
+	},
+
+	"installer_login": {
+		"installer_login"         : "Inicio de sesión del instalador",
+		"email"                   : "Email",
+		"password"                : "Palabra clave",
+		"wrong_email_or_password" : "Correo o contraseña equivocada. ¡Inténtalo de nuevo!",
+		"wrong_system_installer"  : "You are not the installer of this system, therefore you will not be able to finish the installation"
+	},
+
+	"customer_info": {
+		"customer_information"       : "Informaciones para clientes",
+		"first_name"                 : "Nombre",
+		"last_name"                  : "Apellido",
+		"email"                      : "Email",
+		"telephone"                  : "Teléfono",
+		"city"                       : "Ciudad",
+		"zip_code"                   : "Código postal",
+		"address"                    : "Dirección",
+		"installation_address"       : "Dirección de instalación",
+		"same_as_customer_address"   : "Igual que la dirección del cliente",
+		"customer_same_as_installer" : "El correo electrónico del cliente no puede ser el mismo que el correo electrónico del instalador. ¡Elija otro correo electrónico!",
+		"wrong_customer_installer"   : "You do not have access to the customer with this email address. Please use another email address!"
+	},
+
+	"system_detect": {
+		"meter_not_working"    : "El medidor de energía no funciona",
+		"please_connect_meter" : "Por favor Conecte su medidor de energía al liveX",
+		"trax_not_registered"  : "Su traX no está registrado en nuestra base de datos"
+	},
+
+	"summary": {
+		"installation_summary"  : "Resumen de la instalación",
+		"installation_date"     : "Fecha de instalación",
+		"installer"             : "Instalador",
+		"name"                  : "Nombre",
+		"company"               : "Empresa",
+		"email"                 : "Email",
+		"telephone"             : "Teléfono",
+		"customer"              : "Cliente",
+		"address"               : "Dirección",
+		"installation"          : "Instalación",
+		"serialnumber"          : "Número de serie",
+		"confirm_box"           : "Por la presente confirmo que la información anterior es verdadera, completa y precisa",
+		"finish_installation"   : "Finalizar instalación",
+		"final_congratulations" : "¡Felicidades!",
+		"final_p1"              : "La instalación de BatterX TraX se completó con éxito y se envió un correo electrónico con un enlace de confirmación al cliente.",
+		"final_p2"              : "Al hacer clic en el enlace de confirmación, el cliente puede comenzar a usar el portal batterX para monitoreo remoto de su sistema BatterX TraX.",
+		"final_p3"              : "Como instalador del Sistema, usted también tiene acceso a este BatterX TraX desde su propia cuenta.",
+		"final_p6"              : "El portal batterX se puede encontrar en el siguiente enlace"
+	},
+
+
+	
+
+
+	"dict_gender": {
+		"0" : "Sr.",
+		"1" : "Sra."
+	},
+
+	"dict_countries": {
+		"europe" : "Europa",
+		"africa" : "África",
+		"at" : "Austria",
+		"by" : "Bielorrusia",
+		"be" : "Bélgica",
+		"cy" : "Chipre",
+		"cz" : "Chequia",
+		"dk" : "Dinamarca",
+		"ee" : "Estonia",
+		"fi" : "Finlandia",
+		"fr" : "Francia",
+		"ge" : "Georgia",
+		"de" : "Alemania",
+		"gr" : "Grecia",
+		"hu" : "Hungría",
+		"is" : "Islandia",
+		"ie" : "Irlanda",
+		"it" : "Italia",
+		"lv" : "Letonia",
+		"lt" : "Lituania",
+		"lu" : "Luxemburgo",
+		"mt" : "Malta",
+		"md" : "Moldavia",
+		"nl" : "Países Bajos",
+		"no" : "Noruega",
+		"pl" : "Polonia",
+		"pt" : "Portugal",
+		"ro" : "Rumania",
+		"ru" : "Rusia",
+		"sk" : "Eslovaquia",
+		"si" : "Eslovenia",
+		"es" : "España",
+		"se" : "Suecia",
+		"ch" : "Suiza",
+		"tr" : "Turquia",
+		"ua" : "Ucrania",
+		"gb" : "Reino Unido",
+		"sn" : "Senegal",
+		"ci" : "Costa de Marfil",
+		"gh" : "Ghana",
+		"ng" : "Nigeria",
+		"tg" : "Togo",
+		"cd" : "República Democrática del Congo",
+		"ug" : "Uganda",
+		"ke" : "Kenia",
+		"za" : "Sudáfrica",
+		"re" : "Reunión"
+	}
+
+}

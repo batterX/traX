@@ -1,0 +1,131 @@
+{
+
+	"lang": "fr",
+
+	"btn": {
+		"continue" : "Continuer",
+		"login"    : "Se connecter"
+    },
+
+	"software_update": {
+		"software_update"                : "Mise à jour du liveX",
+		"checking_internet_connection"   : "Vérification de la connexion internet",
+		"searching_for_updates"          : "Recherche des mises à jour",
+		"downloading_update"             : "Téléchargement de la mise à jour",
+		"rebooting"                      : "Redémarrage",
+		"finishing_update"               : "Terminer la mise à jour",
+		"update_completed"               : "Mise à jour terminée",
+		"no_internet_connection"         : "Pas de connexion internet",
+		"check_network_cable_connection" : "Assurez-vous que le câble réseau est connecté"
+	},
+
+	"installer_login": {
+		"installer_login"         : "Connexion de l'installateur",
+		"email"                   : "E-mail",
+		"password"                : "Mot de passe",
+		"wrong_email_or_password" : "Mauvaise l'adresse e-mail ou mot de passe. Veuillez réessayer!",
+		"wrong_system_installer"  : "Vous n'êtes pas l'installateur de ce système, vous ne pourrez donc pas terminer l'installation"
+	},
+
+	"customer_info": {
+		"customer_information"       : "Informations clients",
+		"first_name"                 : "Prénom",
+		"last_name"                  : "Nom",
+		"email"                      : "E-mail",
+		"telephone"                  : "Numéro de téléphone",
+		"city"                       : "Ville",
+		"zip_code"                   : "Code postal",
+		"address"                    : "L'adresse",
+		"installation_address"       : "L'adresse d'installation",
+		"same_as_customer_address"   : "Identique à l'adresse du client",
+		"customer_same_as_installer" : "L'adress email du client ne peut pas être le même que celui de l'installateur. Veuillez choisir une autre adresse email!",
+		"wrong_customer_installer"   : "Vous n'avez pas accès à l'adresse e-mail de ce client final. Veuillez utiliser une autre adresse e-mail!"
+	},
+
+	"system_detect": {
+		"meter_not_working"    : "Compteur d'énergie ne fonctionne pas",
+		"please_connect_meter" : "Veuillez connecter le compteur d'énergie au liveX",
+		"trax_not_registered"  : "Votre traX n'est pas enregistré dans nos bases de données"
+	},
+
+	"summary": {
+		"installation_summary"  : "Résumé de l'installation",
+		"installation_date"     : "Date d'installation",
+		"installer"             : "L'installateur",
+		"name"                  : "Nom",
+		"company"               : "Société",
+		"email"                 : "E-mail",
+		"telephone"             : "Téléphone",
+		"customer"              : "Client",
+		"address"               : "L'adresse",
+		"installation"          : "Installation",
+		"serialnumber"          : "Numéro de série",
+		"confirm_box"           : "Je confirme par la présente que les informations ci-dessus sont vrais, complets et exacts.",
+		"finish_installation"   : "Terminer l'installation",
+		"final_congratulations" : "Félicitations!",
+		"final_p1"              : "L'installation du batterX traX a été terminé avec succès et un courriel avec un lien de confirmation a été envoyé à l'adresse e-mail du client.",
+		"final_p2"              : "En cliquant sur le lien de confirmation, le client peut commencer à utiliser le portail pour la surveillance à distance de son batterX traX.",
+		"final_p3"              : "En tant qu'installateur du système il sera également disponible dans votre compte.",
+		"final_p6"              : "Le portail batterX est accessible sous l'adresse suivante"
+	},
+
+
+
+
+
+	"dict_gender": {
+		"0" : "M.",
+		"1" : "Mme."
+	},
+
+	"dict_countries": {
+		"europe" : "Europe",
+		"africa" : "Afrique",
+		"at" : "Autriche",
+		"by" : "Biélorussie",
+		"be" : "Belgique",
+		"cy" : "Chypre",
+		"cz" : "Tchéquie",
+		"dk" : "Danemark",
+		"ee" : "Estonie",
+		"fi" : "Finlande",
+		"fr" : "France",
+		"ge" : "Géorgie",
+		"de" : "Allemagne",
+		"gr" : "Grèce",
+		"hu" : "Hongrie",
+		"is" : "Islande",
+		"ie" : "Irlande",
+		"it" : "Italie",
+		"lv" : "Lettonie",
+		"lt" : "Lituanie",
+		"lu" : "Luxembourg",
+		"mt" : "Malte",
+		"md" : "Moldavie",
+		"nl" : "Pays-Bas",
+		"no" : "Norvège",
+		"pl" : "Pologne",
+		"pt" : "Portugal",
+		"ro" : "Roumanie",
+		"ru" : "Russie",
+		"sk" : "Slovaquie",
+		"si" : "Slovénie",
+		"es" : "Espagne",
+		"se" : "Suède",
+		"ch" : "Suisse",
+		"tr" : "Turquie",
+		"ua" : "Ukraine",
+		"gb" : "Grande-Bretagne",
+		"sn" : "Sénégal",
+		"ci" : "Côte d'Ivoire",
+		"gh" : "Ghana",
+		"ng" : "Nigéria",
+		"tg" : "Togo",
+		"cd" : "République démocratique du Congo",
+		"ug" : "Ouganda",
+		"ke" : "Kenya",
+		"za" : "Afrique du Sud",
+		"re" : "Réunion"
+	}
+
+}

@@ -1,0 +1,131 @@
+{
+
+	"lang": "en",
+
+	"btn": {
+		"continue" : "Continue",
+		"login"    : "Login"
+    },
+
+	"software_update": {
+		"software_update"                : "Software Update",
+		"checking_internet_connection"   : "Checking Internet Connection",
+		"searching_for_updates"          : "Searching for Updates",
+		"downloading_update"             : "Downloading Update",
+		"rebooting"                      : "Rebooting",
+		"finishing_update"               : "Finishing Update",
+		"update_completed"               : "Update Completed",
+		"no_internet_connection"         : "No Internet Connection",
+		"check_network_cable_connection" : "Make sure the network cable is connected"
+	},
+
+	"installer_login": {
+		"installer_login"         : "Installer Login",
+		"email"                   : "Email",
+		"password"                : "Password",
+		"wrong_email_or_password" : "Wrong email or password. Please try again!",
+		"wrong_system_installer"  : "You are not the installer of this system, therefore you will not be able to finish the installation"
+	},
+
+	"customer_info": {
+		"customer_information"       : "Customer Information",
+		"first_name"                 : "First Name",
+		"last_name"                  : "Last Name",
+		"email"                      : "Email",
+		"telephone"                  : "Telephone",
+		"city"                       : "City",
+		"zip_code"                   : "Zip Code",
+		"address"                    : "Address",
+		"installation_address"       : "Installation Address",
+		"same_as_customer_address"   : "Same as customer address",
+		"customer_same_as_installer" : "The customer email cannot be same as the installer email. Please use another email address!",
+		"wrong_customer_installer"   : "You do not have access to the customer with this email address. Please use another email address!"
+	},
+
+	"system_detect": {
+		"meter_not_working"    : "Energy Meter Not Working",
+		"please_connect_meter" : "Please connect your Energy Meter to the traX",
+		"trax_not_registered"  : "Your traX is not registered in our Database"
+	},
+
+	"summary": {
+		"installation_summary"  : "Installation Summary",
+		"installation_date"     : "Installation Date",
+		"installer"             : "Installer",
+		"name"                  : "Name",
+		"company"               : "Company",
+		"email"                 : "Email",
+		"telephone"             : "Telephone",
+		"customer"              : "Customer",
+		"address"               : "Address",
+		"installation"          : "Installation",
+		"serialnumber"          : "Serial Number",
+		"confirm_box"           : "I hereby confirm that the information above is true, complete and accurate.",
+		"finish_installation"   : "Finish Installation",
+		"final_congratulations" : "Congratulations!",
+		"final_p1"              : "The installation of the batterX traX was successfully completed and an e-mail with a confirmation link was sent to the customer.",
+		"final_p2"              : "By clicking the confirmation link the customer can start using the batterX Portal for remote monitoring of his batterX traX.",
+		"final_p3"              : "As the installer of the system you get access to this batterX traX from your own account as well.",
+		"final_p6"              : "The batterX Portal can be found at the following link"
+	},
+
+
+	
+
+
+	"dict_gender": {
+		"0" : "Mr.",
+		"1" : "Ms."
+	},
+
+	"dict_countries": {
+		"europe" : "Europe",
+		"africa" : "Africa",
+		"at" : "Austria",
+		"by" : "Belarus",
+		"be" : "Belgium",
+		"cy" : "Cyprus",
+		"cz" : "Czechia",
+		"dk" : "Denmark",
+		"ee" : "Estonia",
+		"fi" : "Finland",
+		"fr" : "France",
+		"ge" : "Georgia",
+		"de" : "Germany",
+		"gr" : "Greece",
+		"hu" : "Hungary",
+		"is" : "Iceland",
+		"ie" : "Ireland",
+		"it" : "Italy",
+		"lv" : "Latvia",
+		"lt" : "Lithuania",
+		"lu" : "Luxembourg",
+		"mt" : "Malta",
+		"md" : "Moldova",
+		"nl" : "Netherlands",
+		"no" : "Norway",
+		"pl" : "Poland",
+		"pt" : "Portugal",
+		"ro" : "Romania",
+		"ru" : "Russia",
+		"sk" : "Slovakia",
+		"si" : "Slovenia",
+		"es" : "Spain",
+		"se" : "Sweden",
+		"ch" : "Switzerland",
+		"tr" : "Turkey",
+		"ua" : "Ukraine",
+		"gb" : "United Kingdom",
+		"sn" : "Senegal",
+		"ci" : "Ivory Coast",
+		"gh" : "Ghana",
+		"ng" : "Nigeria",
+		"tg" : "Togo",
+		"cd" : "Democratic Republic of the Congo",
+		"ug" : "Uganda",
+		"ke" : "Kenya",
+		"za" : "South Africa",
+		"re" : "Réunion"
+	}
+
+}

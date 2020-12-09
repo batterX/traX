@@ -71,10 +71,10 @@ $_SESSION["box_apikey"] = $apikey;
 
 
 			<div id="meterUnknown" class="container elevate-1">
-				<h1><?php echo $lang["system_detect"]["meter_not_working"] ?></h1>
+				<h1><?php echo $lang["trax_system_detect"]["meter_not_working"] ?></h1>
 				<div>
 					<div class="notif loading"></div>
-					<span class="message"><?php echo $lang["system_detect"]["please_connect_meter"]; ?></span>
+					<span class="message"><?php echo $lang["trax_system_detect"]["please_connect_meter"]; ?></span>
 				</div>
 			</div>
 		

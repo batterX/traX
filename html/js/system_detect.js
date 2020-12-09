@@ -74,7 +74,7 @@ function step2() {
 			} else {
 				// Show Not Registered
 				$(".notif").removeClass("loading error success").addClass("error");
-				$(".message").html(lang.system_detect.trax_not_registered).css("color", "red");
+				$(".message").html(lang.trax_system_detect.trax_not_registered).css("color", "red");
 			}
 		}
 	});

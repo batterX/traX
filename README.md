@@ -1,4 +1,4 @@
-# batterX traX (v20.8.1)
+# batterX traX (v20.12.1)
 
 **Note:** The RS232 converter must be connected to the Top-Left USB Port of the LiveX
 ```

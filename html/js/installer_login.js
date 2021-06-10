@@ -4,6 +4,30 @@ $progress.trigger("step", 2);
 
 
 
+// Get Latest Version Number
+var canContinue = false;
+$.get({
+	url: "https://raw.githubusercontent.com/batterX/traX/master/version.txt",
+	dataType: "text",
+	cache: false,
+	error: () => {
+		canContinue = true;
+		enableLogin();
+	},
+	success: (versionNum) => {
+		if(softwareVersion != versionNum) {
+			window.location.href = ".";
+		} else {
+			canContinue = true;
+			enableLogin();
+		}
+	}
+});
+
+
+
+
+
 var isLoggedIn = false;
 
 function validateEmail(email) {
@@ -14,7 +38,7 @@ function validateEmail(email) {
 function enableLogin() {
 	var e = $("#email   ").val().trim();
 	var p = $("#password").val().trim();
-	$("#btn_next").attr("disabled", e == "" || p == "" || !validateEmail(e));
+	$("#btn_next").attr("disabled", e == "" || p == "" || !validateEmail(e) || !canContinue);
 	isLoggedIn = false;
 }
 
@@ -41,7 +65,7 @@ $("#loginForm").on("submit", (e) => {
 
 	if(email != "" && pass != "" && validateEmail(email)) {
 		$.post({
-			url: "https://api.batterx.io/v3/install_trax.php",
+			url: "https://api.batterx.io/v3/install.php",
 			data: {
 				action   : "installer_login",
 				email    : email,
@@ -76,7 +100,8 @@ $("#loginForm").on("submit", (e) => {
 						installer_firstname: response.hasOwnProperty("firstname") ? response["firstname"] : "",
 						installer_lastname:  response.hasOwnProperty("lastname" ) ? response["lastname" ] : "",
 						installer_company:   response.hasOwnProperty("company"  ) ? response["company"  ] : "",
-						installer_telephone: response.hasOwnProperty("telephone") ? response["telephone"] : ""
+						installer_telephone: response.hasOwnProperty("telephone") ? response["telephone"] : "",
+						installer_country:   response.hasOwnProperty("country"  ) ? response["country"  ] : ""
 					},
 					error: () => { alert("E002. Please refresh the page!"); },
 					success: (response) => {

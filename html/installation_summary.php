@@ -23,6 +23,13 @@ $arrayCountry = $lang["dict_countries"];
 // Set Installation Date
 $_SESSION["installation_date"] = date("Y-m-d");
 
+$hasDevice  = (isset($_SESSION["device_serial"]) && $_SESSION["device_serial"] != "" && isset($_SESSION["device_model"]) && $_SESSION["device_model"]);
+$hasBattery = (isset($_SESSION["battery_capacity"]) && $_SESSION["battery_capacity"] != "" && $_SESSION["battery_capacity"] != "0");
+if(!$hasDevice) $hasBattery = false;
+
+$_SESSION["has_device" ] = $hasDevice;
+$_SESSION["has_battery"] = $hasBattery;
+
 ?>
 
 
@@ -76,12 +83,16 @@ $_SESSION["installation_date"] = date("Y-m-d");
 			</div>
 
 			<div class="installation-date border box-margin">
-				<div class="box-row">
+				<div class="box-row bb">
 					<span class="br"><?php echo $lang["trax_summary"]["installation_date"]; ?></span>
 					<span><?php echo $_SESSION["installation_date"]; ?></span>
 				</div>
+				<div class="box-row">
+					<span class="br"><?php echo $lang["trax_summary"]["latest_maintenance"]; ?></span>
+					<span><?php echo date("Y-m-d"); ?></span>
+				</div>
 			</div>
-
+			
 			<div class="installer-info border box-margin">
 				<div class="box-head">
 					<span><?php echo $lang["trax_summary"]["installer"]; ?></span>
@@ -102,6 +113,12 @@ $_SESSION["installation_date"] = date("Y-m-d");
 					<span class="br"><?php echo $lang["common"]["telephone"]; ?></span>
 					<span><?php echo $_SESSION["installer_telephone"]; ?></span>
 				</div>
+				<?php if(!empty($_SESSION["note"])): ?>
+					<div class="box-row bt">
+						<span class="br"><?php echo $lang["trax_summary"]["installer_memo"]; ?></span>
+						<span style="white-space: pre-wrap"><?php echo $_SESSION["note"]; ?></span>
+					</div>
+				<?php endif; ?>
 			</div>
 			
 			<div class="customer-info border box-margin">
@@ -137,9 +154,33 @@ $_SESSION["installation_date"] = date("Y-m-d");
 					<span><?php echo $lang["trax_summary"]["installation"]; ?></span>
 				</div>
 				<div class="box-row bt">
-					<span class="br"><?php echo $lang["common"]["serialnumber"]; ?></span>
-					<span><?php echo $_SESSION["box_serial"] . " (batterX traX)"; ?></span>
+					<span class="br"><?php echo $lang["trax_summary"]["installation_sn_livex"]; ?></span>
+					<span><?php echo $_SESSION["box_serial"] . " (" . $_SESSION["software_version"] . ")"; ?></span>
 				</div>
+				<?php if($hasDevice): ?>
+					<div class="box-row bt">
+						<span class="br"><?php echo $lang["trax_summary"]["installation_sn_inverter"]; ?></span>
+						<span><?php echo $_SESSION["device_serial"] . " (" . $_SESSION["device_model"] . ")"; ?></b></span>
+					</div>
+				<?php endif; ?>
+				<?php if($hasBattery): ?>
+					<div class="box-row bt">
+						<span class="br"><?php echo $lang["trax_summary"]["installation_batteries"]; ?></span>
+						<span><?php echo $_SESSION["battery_capacity"] . " Wh"; ?></span>
+					</div>
+				<?php endif; ?>
+				<?php if($hasDevice): ?>
+					<div class="box-row bt">
+						<span class="br"><?php echo $lang["trax_summary"]["installation_solar_size"]; ?></span>
+						<span><?php echo $_SESSION["solar_wattpeak"] . " Wp"; ?></span>
+					</div>
+				<?php endif; ?>
+				<?php if($hasDevice && !empty($_SESSION["solar_info"])): ?>
+					<div class="box-row bt">
+						<span class="br"><?php echo $lang["trax_summary"]["installation_solar_info"]; ?></span>
+						<span style="white-space: pre-wrap"><?php echo $_SESSION["solar_info"]; ?></span>
+					</div>
+				<?php endif; ?>
 				<div class="box-row bt">
 					<span class="br"><?php echo $lang["common"]["address"]; ?></span>
 					<span><?php echo $_SESSION["installation_address"] . "<br>" . $_SESSION["installation_zipcode"] . " " . $_SESSION["installation_city"] . ", " . $arrayCountry[$_SESSION["installation_country"]]; ?></span>
@@ -181,7 +222,18 @@ $_SESSION["installation_date"] = date("Y-m-d");
 
 			<p><?php echo $lang["trax_summary"]["final_text3"]; ?></p>
 
-			<p class="mb-2 mt-2rem"><?php echo $lang["trax_summary"]["final_text4"]; ?>: <br><a href="https://my.batterx.io" target="_blank">my.batterx.io</a></p>
+			<p class="mt-2rem"><?php echo $lang["trax_summary"]["final_text4"]; ?>: <br><a href="https://my.batterx.io" target="_blank">my.batterx.io</a></p>
+
+			<p class="mt-2rem"><?php echo $lang["trax_summary"]["final_text5"]; ?></p>
+
+			<button id="btnDownload" class="btn btn-sm btn-success ripple py-2 px-4"><?php echo $lang["trax_summary"]["final_download_pdf"]; ?></button>
+
+			<p class="mt-2rem"><?php echo $lang["trax_summary"]["final_text6"]; ?></p>
+
+			<div class="d-flex align-items-center">
+				<button id="btnReboot" class="btn btn-sm btn-primary ripple py-2 px-4"><?php echo $lang["trax_summary"]["final_reboot_livex"]; ?></button>
+				<div class="notif ml-3"></div>
+			</div>
 
 		</div>
 

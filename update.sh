@@ -12,6 +12,10 @@ sudo rm /home/pi/CloudStream
 sudo cp /home/pi/trax/CloudStream /home/pi
 sudo chmod 777 /home/pi/CloudStream
 
+sudo rm /home/pi/MqttStream
+sudo cp /home/pi/trax/MqttStream /home/pi
+sudo chmod 777 /home/pi/MqttStream
+
 sudo cp /home/pi/trax/launcher.sh /home/pi
 sudo chmod 777 /home/pi/launcher.sh
 
@@ -28,6 +32,7 @@ sudo apt-get install rng-tools -y
 
 sudo kill $(pgrep "BatterX")
 sudo kill $(pgrep "CloudStream")
+sudo kill $(pgrep "MqttStream")
 
 
 

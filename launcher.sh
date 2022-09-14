@@ -17,15 +17,7 @@ if ! pgrep -x "BatterX" > /dev/null
 then
 	cd /
 	cd home/pi
-	sudo ./BatterX
-	cd /
-fi
-
-if ! pgrep -x "CloudStream" > /dev/null
-then
-	cd /
-	cd home/pi
-	sudo ./CloudStream
+	sudo ./BatterX &
 	cd /
 fi
 
@@ -33,6 +25,14 @@ if ! pgrep -x "MqttStream" > /dev/null
 then
 	cd /
 	cd home/pi
-	sudo ./MqttStream
+	sudo ./MqttStream &
+	cd /
+fi
+
+if ! pgrep -x "CloudStream" > /dev/null
+then
+	cd /
+	cd home/pi
+	sudo ./CloudStream &
 	cd /
 fi

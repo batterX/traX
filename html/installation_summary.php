@@ -222,7 +222,7 @@ $_SESSION["has_battery"] = $hasBattery;
 
 			<p><?php echo $lang["trax_summary"]["final_text3"]; ?></p>
 
-			<p class="mt-2rem"><?php echo $lang["trax_summary"]["final_text4"]; ?>: <br><a href="https://my.batterx.io" target="_blank">my.batterx.io</a></p>
+			<p class="mt-2rem"><?php echo $lang["trax_summary"]["final_text4"]; ?>: <br><a href="https://batterx.app" target="_blank">batterx.app</a></p>
 
 			<p class="mt-2rem"><?php echo $lang["trax_summary"]["final_text5"]; ?></p>
 

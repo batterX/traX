@@ -1,4 +1,4 @@
-# batterX traX (v22.9.0)
+# batterX traX (v22.9.1)
 
 **Note:**
 

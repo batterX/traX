@@ -147,7 +147,7 @@ $("#bx_device").on("change", () => {
 	if($("#bx_device").val().trim() == "") return $("#bx_model").val("");
 
 	$.post({
-		url: "https://api.batterx.io/v3/install.php",
+		url: "https://api.batterx.app/v1/install.php",
 		data: {
 			action: "get_device_model",
 			serialnumber: $("#bx_device").val().trim()
@@ -251,7 +251,7 @@ function step1() {
 function step2() {
 
 	$.post({
-		url: "https://api.batterx.io/v3/install.php",
+		url: "https://api.batterx.app/v1/install.php",
 		data: {
 			action: "get_installation_info",
 			apikey: systemApikey
@@ -330,7 +330,7 @@ function step2() {
 function step3() {
 
 	$.post({
-		url: "https://api.batterx.io/v3/install.php",
+		url: "https://api.batterx.app/v1/install.php",
 		data: {
 			action: "get_box_serial",
 			apikey: systemApikey
@@ -476,7 +476,7 @@ function mainFormSubmit() {
 		canContinue = true;
 	} else {
 		$.post({
-			url: "https://api.batterx.io/v3/install.php",
+			url: "https://api.batterx.app/v1/install.php",
 			async: false,
 			data: {
 				action       : "verify_device",
